@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Bed and bike. Un rifugio sicuro per te e per la tua bici.</title>
+  <meta name="description" content="Affitta posti unici in qualsiasi località. Sentiti a casa ovunque tu sia a prezzi convenienti con Bed and Bike">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <!-- aggiungo due nuovi fonts da GOOGLE FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Itim|Oxygen" rel="stylesheet">
+  <!-- AWESOME FONT -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- SEZIONE Fix Navbar -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper white">
+
+        <!-- # è il ritorno in alto della pagina -->
+        <a href="#" class="brand-logo">bed'n'bike
+        </a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#servizio">Servizio</a></li>
+          <li><a href="#registrazione">Registrati</a></li>
+          <li><a href="#ospita">Ospita</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#servizio">Servizio</a></li>
+          <li><a href="#registrazione">Registrati</a></li>
+          <li><a href="#ospita">Ospita</a></li>
+      </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- SEZIONE INTRO -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section-intro no-pad-bot"> 
+      <div class="container">
+        <br><br>
+        <!-- devo definire la classe header nel CSS perchè devo aggiungere un 15% di spazio-->
+        <h1 class="header center black-text">Sentiti a casa ovunque tu sia</h1>
+        <div class="row center">
+          <h5 class="header-subtitle col s12 light pink-text">Cerca e prenota l'alloggio per la tua prossima tappa</h5>
+        </div>
+        <div class="row center">
+          <a href='#servizio' class="btn-large waves-effect waves-light purple accent-3">Scopri come funziona</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <!-- SEZIONE SERVIZI -->
+  <div id="servizio" class="container">
+    <div class="section">
+
+    <!-- Aggiungo una nuova DIV, un nuovo elemento sopra le ns colonne, poi in CSS aggiungo il nuovo selector, la nuova regola per la classe col-servizio -->
+      
+      <div class="col-servizio">
+
+
+        <!--   Icon Section   -->
+        <!--   s12 m4 ... divisione della griglia secondo materialize  small (Mobile Devices <= 600px), medium (Tablet Devices <= 992px), large (Desktop Devices > 992px) -->
+        <div class="row">
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <!--   Icona flash   -->
+              <h2 class="center purple-text text-darken-4"><i class="material-icons">place</i></h2>
+              <h4 class="center">Trova il tuo ospite</h4>
+              <br>
+              <h5 class="center light">Un rifugio per te e i tuoi compagni di viaggio e per la tua bici.</h5>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center purple-text text-darken-4"><i class="material-icons">map</i></h2>
+              <h4 class="center">Itinerari</h4>
+              <br>
+              <h5 class="center light">Itinerari classici e insoliti. Lungo fiumi e montagne. Per castelli e antichi borghi.</h5>
+            </div> 
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center purple-text text-darken-4"><i class="material-icons">people</i></h2>
+              <h4 class="center">bed'n'bike club</h4>
+              <br>
+              <h5 class="center light">Partecipa alla simpatica brigata di bed'n'bike e trova nuovi amici.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--   SEZIONE REGISTRAZIONE   -->
+  <div id="registrazione" class="parallax-container valign-wrapper">
+    <div class="section-registrazione no-pad-bot">
+      <div class="container">
+        <div class="row center">
+        <i class="material-icons registrazione-icon" >access_alarm</i>
+          <h3 class="col s12 light">Sei in cerca della tua prossima destinazione?</h3>
+          <h5 class="col s12 registrazione-subtitle">Registrati per rimanere aggiornato sul rilascio della versione beta</h5>
+          <!-- form -->
+          <div class="row">
+            <div class="input-field col s12 l6 offset-l3">
+
+              <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+              <form action="http://linkedin.us14.list-manage.com/subscribe/post?u=6580eef85ed2d44c87d66a80b&amp;id=753f1aca48" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <input type="email" value="" name="EMAIL" class="email validate white center black-text" id="mce-EMAIL" placeholder="Inserisci qui la tua email!" required>
+                  <button class="btn btn-registrazione waves-effect waves-light purple accent-3" type="submit" name="action">Voglio registrarmi!</button>
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+<!-- SEZIONE OSPITA-->
+  <div id="ospita" class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <i class="material-icons ospita-icon purple-text text-darken-4" >home</i>
+          <h3>Vuoi affittare la tua casa su bed and bike?</h3>
+          <h5 class="col s12 ospita-subtitle">Compila il seguente questionario indicando la località, il numero di camere 
+          <br>e posti disponibili, i servizi che potrai mettere a disposizione per i tuoi ciclo ospiti. 
+          <br>Ti ricontatteremo entro 24h</h5>
+
+          <a class="typeform-share col l6 offset-l3 btn btn-ospita waves-effect waves-light purple accent-3" href="https://bedandbike.typeform.com/to/oEWmzM" data-mode="2" target="_blank">Voglio affittare casa!</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+<!-- SEZIONE FOOTER--> 
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12 center">
+          <h5 class="white-text">Contattaci</h5>
+          <a href="mailto:magda.giacintucci@gmail.com" class="social-icon"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/magda.giacintucci" target="_blank" class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/@runningocean" target="_blank" class="social-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+         </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      2016 &copy <a class="brown-text text-lighten-3" href="https://it.linkedin.com/in/magdagiacintucci" target="_blank">MAG</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+
+  </body>
+</html>
